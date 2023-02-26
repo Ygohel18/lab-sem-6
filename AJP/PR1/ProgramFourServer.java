@@ -5,7 +5,7 @@ import java.util.*;
 public class ProgramFourServer {
 
   public static void main(String args[]) throws IOException {
-    ServerSocket ss = new ServerSocket(1811);
+    ServerSocket ss = new ServerSocket(777);
     Socket s = ss.accept();
     String str, str_out, stro = "";
     BufferedReader br = new BufferedReader(
